@@ -313,6 +313,7 @@ h1{
   .bdayTitle{
     position:relative;
     bottom:100px;
+    top:-100px;
   }
 
   .star-wars-intro .main-content{
