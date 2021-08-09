@@ -306,7 +306,7 @@ h1{
   }
   .bdayTitle{
   
-   font-size:30px;
+   font-size:40px;
   }
 
   .star-wars-intro .main-content{
@@ -314,6 +314,9 @@ h1{
   }
   #starwars p{
     font-size:20px;
+  }
+  .content-header{
+    font-size:40px !important;
   }
 }
 
