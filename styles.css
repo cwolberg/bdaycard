@@ -339,4 +339,7 @@ h1{
   .bottom-row {
     height: 70vh;
   }
+  .content-header{
+    font-size:60px !important;
+  }
 }
