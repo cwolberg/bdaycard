@@ -312,7 +312,7 @@ h1{
   }
   .bdayTitle{
     position:relative;
-   
+   color:blue;
     top:-50px;
     font-size:40px;
   }
@@ -327,8 +327,7 @@ h1{
     transform: perspective(250px) rotateX(15deg);
   }
   .star-wars-intro .title-content {
-    position: absolute;
-    top: 80%;
-    animation: scroll 80s linear 0s forwards;
+    animation: scroll 120s linear 4s forwards;
+    color:blue;
   }
 }
