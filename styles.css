@@ -100,7 +100,7 @@ h1{
       animation: bdayTitle 1.6s ease-out;
   }
   .content-header{
-    font-size:100px !important;
+    font-size:130px !important;
   }
 
   @keyframes bdayTitle {
