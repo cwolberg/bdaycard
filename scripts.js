@@ -11,7 +11,7 @@ function openCard() {
         audio.play();
     setTimeout(function(){ document.getElementById("starwars").style.display = "initial"; }, 1000);
     setTimeout(function(){ var starWars = document.getElementById('starwars');
-    starWars.classList.toggle('fade'); }, 110000);
+    starWars.classList.toggle('fade'); }, 100000);
     
     
   }
