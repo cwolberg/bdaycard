@@ -318,6 +318,6 @@ h1{
   }
 
   .star-wars-intro .main-content{
-    transform: perspective(250px) rotateX(15deg);
+    transform: perspective(150px) rotateX(15deg);
   }
 }
