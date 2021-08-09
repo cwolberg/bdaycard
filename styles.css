@@ -302,10 +302,8 @@ h1{
     height: 70vh;
   }
   .bdayTitle{
-    position:relative;
    color:red;
-    
-    font-size:40px;
+   font-size:40px;
   }
 
   .star-wars-intro .main-content{
@@ -320,6 +318,8 @@ h1{
   }
   .star-wars-intro .title-content {
     animation: scroll 120s linear 4s forwards;
-    color:red;
+  }
+  .bdayTitle{
+   color:green;
   }
 }
