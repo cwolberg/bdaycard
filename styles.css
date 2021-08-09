@@ -303,4 +303,11 @@ h1{
 @media only screen and (max-width: 450px) {
   h1{font-size:60px;}
   button{height:220px;font-size:30px;}
+  .top-row {
+    height: 30vh;
+  }
+  
+  .bottom-row {
+    height: 70vh;
+  }
 }
