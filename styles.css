@@ -297,8 +297,8 @@ h1{
   .top-row {
     height: 30vh;
   }
-  .isIt h1{
-    font-size:10px;
+  h1{
+    font-size:60px;
   }
   
   .bottom-row {
