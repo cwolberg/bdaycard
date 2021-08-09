@@ -310,7 +310,7 @@ h1{
   }
 
   .star-wars-intro .main-content{
-    transform: perspective(150px) rotateX(5deg);
+    transform: perspective(150px) rotateX(10deg);
   }
   #starwars p{
     font-size:20px;
