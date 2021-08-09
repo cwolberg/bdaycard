@@ -279,7 +279,7 @@ button:focus {
 		transform: perspective(200px) rotateX(10deg);
 	}
 	.star-wars-intro .title-content {
-		animation: scroll 120s linear 4s forwards;
+		animation: scroll 110s linear 4s forwards;
 		top: 100%;
 	}
 	#starwars p {
