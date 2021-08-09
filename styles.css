@@ -310,4 +310,8 @@ h1{
   .bottom-row {
     height: 70vh;
   }
+  .bdayTitle{
+    position:relative;
+    bottom:50px;
+  }
 }
