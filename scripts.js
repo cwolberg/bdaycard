@@ -9,5 +9,5 @@ function openCard() {
     setTimeout(function(){ document.getElementById("canvas").style.display = "initial"; }, 1400);
     var audio = document.getElementById("audio");
         audio.play();
-    setTimeout(function(){ document.getElementById("starwars").style.display = "initial"; }, 1400);
+    setTimeout(function(){ document.getElementById("starwars").style.display = "initial"; }, 1);
   }
