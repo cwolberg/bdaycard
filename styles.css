@@ -302,30 +302,36 @@ h1{
     height: 70vh;
   }
   .bdayTitle{
-   color:orange;
-   font-size:20px;
+   color:blue;
+   font-size:30px;
   }
 
   .star-wars-intro .main-content{
     transform: perspective(150px) rotateX(5deg);
   }
   #starwars p{
-    font-size:10px;
+    font-size:20px;
   }
 }
 
 @media only screen and (min-width: 451px) and  (max-width: 1000px) {
   .star-wars-intro .main-content{
     transform: perspective(200px) rotateX(10deg);
-    font-size: 20px;
   }
   .star-wars-intro .title-content {
     animation: scroll 120s linear 4s forwards;
   }
   .bdayTitle{
-   color:orange;
+   color:blue;
   }
   #starwars p{
     font-size:40px;
+  }
+  .top-row {
+    height: 30vh;
+  }
+  
+  .bottom-row {
+    height: 70vh;
   }
 }
