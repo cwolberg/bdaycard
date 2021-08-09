@@ -302,7 +302,7 @@ h1{
     height: 70vh;
   }
   .bdayTitle{
-   color:purple;
+   color:orange;
    font-size:20px;
   }
 
@@ -323,7 +323,7 @@ h1{
     animation: scroll 120s linear 4s forwards;
   }
   .bdayTitle{
-   color:gray;
+   color:orange;
   }
   #starwars p{
     font-size:40px;
