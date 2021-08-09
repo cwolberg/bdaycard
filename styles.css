@@ -29,14 +29,14 @@ canvas {
   
   .top-row {
     background-color: black;
-    height: 50vh;
+    height: 40vh;
     min-height:340px;
     text-align: center;
   }
   
   .bottom-row {
     background-color: black;
-    height: 50vh;
+    height: 60vh;
     text-align: center;  
  
   }
@@ -279,7 +279,15 @@ h1{
 @keyframes scroll {
   0% { top: 100%; }
   100% { top: -170%; }
-} 
+}
+
+#starwars{
+  opacity: 1;
+  transition: opacity 3s; 
+}
+#starwars.fade {
+  opacity: 0;
+}
 
 @media screen and (max-width: 720px) {
   .star-wars-intro .main-content {
@@ -294,5 +302,5 @@ h1{
 
 @media only screen and (max-width: 450px) {
   h1{font-size:60px;}
-  button{height:220px;font-size:34px;}
+  button{height:220px;font-size:30px;}
 }

@@ -10,4 +10,8 @@ function openCard() {
     var audio = document.getElementById("audio");
         audio.play();
     setTimeout(function(){ document.getElementById("starwars").style.display = "initial"; }, 1);
+    setTimeout(function(){ var starWars = document.getElementById('starwars');
+    starWars.classList.toggle('fade'); }, 120000);
+    
+    
   }
