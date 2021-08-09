@@ -314,6 +314,7 @@ h1{
     position:relative;
     bottom:100px;
     top:-100px;
+    font-size:40px;
   }
 
   .star-wars-intro .main-content{
