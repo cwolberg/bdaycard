@@ -240,7 +240,7 @@ h1{
 .star-wars-intro .title-content {
   position: absolute;
   top: 80%;
-  animation: scroll 60s linear 0s forwards;
+  animation: scroll 80s linear 0s forwards;
 }
 
 .star-wars-intro .title-content > .content-header {
@@ -316,7 +316,7 @@ h1{
 
 @media only screen and (min-width: 451px) and  (max-width: 1000px) {
   .star-wars-intro .main-content{
-    transform: perspective(200px) rotateX(25deg);
+    transform: perspective(200px) rotateX(20deg);
     font-size: 20px;
   }
   .star-wars-intro .title-content {
