@@ -298,14 +298,14 @@ h1{
     height: 30vh;
   }
   .isIt h1{
-    font-size:20px;
+    font-size:10px;
   }
   
   .bottom-row {
     height: 70vh;
   }
   .bdayTitle{
-   color:green;
+  
    font-size:30px;
   }
 
@@ -325,9 +325,7 @@ h1{
     animation: scroll 120s linear 4s forwards;
     top:100%;
   }
-  .bdayTitle{
-   color:green;
-  }
+ 
   #starwars p{
     font-size:40px;
   }
