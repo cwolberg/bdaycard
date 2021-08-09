@@ -316,7 +316,7 @@ h1{
 
 @media only screen and (min-width: 451px) and  (max-width: 1000px) {
   .star-wars-intro .main-content{
-    transform: perspective(200px) rotateX(20deg);
+    transform: perspective(200px) rotateX(10deg);
     font-size: 20px;
   }
   .star-wars-intro .title-content {
