@@ -1,0 +1,162 @@
+
+
+body, html {
+    height: 100%;
+    margin:0;
+  }
+
+/* Fit the canvas to the page width. */
+canvas {
+    display:block;
+    height:auto;position:fixed; top:0;left:0;
+    background:transparent;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+   
+  }
+  
+  .top-row {
+    background-color: black;
+    height: 50vh;
+    min-height:340px;
+    text-align: center;
+  }
+  
+  .bottom-row {
+    background-color: black;
+    height: 50vh;
+    text-align: center;  
+ 
+  }
+  
+  /*
+  .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+  }
+*/
+
+h1{
+    font-family: 'Helvetica Neue', sans-serif; font-size: 70px; font-weight: bold; letter-spacing: -1px;  text-align: center;
+    text-shadow: rgb(255, 255, 255) 2px 0 7px;
+    color:pink;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+      -webkit-user-select: none;
+       -khtml-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+          -webkit-tap-highlight-color: transparent;
+  }
+  
+  button {
+      width: 60%;
+      min-height:120px;
+      height: 30%;
+      cursor: pointer;
+      background: pink;
+      border: none;
+      border-radius: 10px;
+      box-shadow: 0px 10px 25px pink, 0px -10px 25px pink, inset 0px -5px 10px pink, inset 0px 5px 10px pink;
+      font-family: 'Open Sans', sans-serif;
+      color: purple;
+      font-size: 50px;
+      font-weight:bold;
+      transition: 500ms;
+  }
+  
+  button:hover {
+          border: 2px solid pink;
+      animation: hueRotation 2s linear infinite;
+  }
+  
+  @keyframes hueRotation {
+      to {filter: hue-rotate(360deg);}
+  }
+  
+  button:focus {
+      outline: none;
+  }
+
+  .bdayTitle{
+      position:relative;
+      top:40px;
+      animation: bdayTitle 1.6s ease-out;
+  }
+
+
+  @keyframes bdayTitle {
+    0% {
+      transform: scale(0.1, 0.1);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  }
+
+  .fade {
+    height:auto;position:fixed; top:0;left:0;
+    width: 100%;
+    top: -25px;
+    background-image: linear-gradient(0deg, transparent, black 75%);
+    z-index: 1;
+  }
+  
+  .star-wars {
+    display: flex;
+    justify-content: center;
+    height:auto;position:fixed; top:0;left:0;
+    color: #feda4a;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 500%;
+    font-weight: 600;
+    letter-spacing: 6px;
+    line-height: 150%;
+    perspective: 400px;
+    text-align: justify;
+  }
+  
+  .crawl {
+    position: relative;
+    top: 99999px;
+    transform-origin: 50% 100%;
+    animation: crawl 120s linear;
+  }
+  
+  .crawl > .title {
+    font-size: 100%;
+    text-align: center;
+  }
+  
+  .crawl > .title h2 {
+    margin: 0 0 100px;
+    text-transform: uppercase;
+  }
+  
+  @keyframes crawl {
+    0% {
+      top: 400px;
+      transform: rotateX(20deg)  translateZ(0);
+    }
+    100% { 
+      top: -9000px;
+      transform: rotateX(25deg) translateZ(-2500px);
+    }
+  }
+
